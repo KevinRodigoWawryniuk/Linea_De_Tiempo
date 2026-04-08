@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/pageHtml.css" />
+
+    <!Aqui estos estilos solo controlan lo que esta dentro de cada parte de la pagina />
+    <link rel="stylesheet" href="css/Header.css" />
+    <link rel="stylesheet" href="css/Main.css" />
+    <link rel="stylesheet" href="css/Footer.css" />
+
+    <! backGround />
+    <link rel="stylesheet" href="css/Surf.css" />
+    <title>Mi linea de tiempo</title>
+</head>
+<body>
+    <header>
+        <h1 class="Titulo">Kevin Rodrigo Wawryniuk</h1>
+        <ol class="ListOH">
+            <li class="ItemH LineUpH"> <button onclick="moverDirecto(0)" class="ButtonH">2019</button> </li>
+            <li class="ItemH LineDownH"> <button onclick="moverDirecto(1)" class="ButtonH">2020</button> </li>
+            <li class="ItemH LineUpH"> <button onclick="moverDirecto(2)" class="ButtonH">2021</button> </li>
+            <li class="ItemH LineDownH"> <button onclick="moverDirecto(3)" class="ButtonH">2022</button> </li>
+            <li class="ItemH LineUpH"> <button onclick="moverDirecto(4)" class="ButtonH">2023</button> </li>
+            <li class="ItemH LineDownH"> <button onclick="moverDirecto(5)" class="ButtonH">2024</button> </li>
+            <li class="ItemH LineUpH"> <button onclick="moverDirecto(6)" class="ButtonH">2025</button> </li>
+            <li class="ItemH LineDownH"> <button onclick="moverDirecto(7)" class="ButtonH">2026</button> </li>
+        </ol>
+    </header>
+
+    <main>
+        <h2 class="SubTituloM">Linea Temporal</h2>
+        <div class="ContentM">
+            <button onclick="mover(-1)" class="ButtonM"> < </button>
+            <div class="LineSM"></div>
+            <div id="contentM" class="ScrollM">
+                <div id="section2019" class="ItemM ItemMUp" name="2019">
+                    <h3 class="TitelItemM">2019</h3>
+                    <p class="ParrafoIM">
+                        Tras finalizar mi último año de secundaria en el Instituto de Enseñanza Agrotécnica (I.E.A. N° 7), intenté ingresar al Ejército Argentino, pero no lo logré. <br />
+                        Luego decidí seguir mi verdadero interés: la programación de videojuegos. <br />
+                        Sin embargo, esta opción estaba fuera de mi alcance debido a factores económicos y a la distancia, ya que la facultad a la que aspiraba se encontraba en Buenos Aires. <br />
+                        Días más tarde, al pasar frente al ITEC N° 3, descubrí una nueva oportunidad: estudiar programación y analisis de sistemas.
+                    </p>
+                </div>
+                <div id="section2020" class="ItemM ItemMUp" name="2020">
+                    <h3 class="TitelItemM">2020</h3>
+                    <p class="ParrafoIM">
+                        Al comenzar mis estudios, estaba muy entusiasmado por aprender programación y análisis de sistemas. <br />
+                        Sin embargo, solo pude cursar hasta mitad de año, ya que la pandemia y los problemas de conexión a internet me impidieron continuar. <br />
+                        A partir de entonces, seguí formándome de manera autodidacta, enfocándome principalmente en el desarrollo de videojuegos, especialmente en la lógica y la física de los mismos.
+                    </p>
+                </div>
+                <div id="section2021" class="ItemM ItemMUp" name="2021">
+                    <h3 class="TitelItemM">2021</h3>
+                    <p class="ParrafoIM">
+                        Este año fue especialmente complicado para estudiar, por lo que me enfoqué en trabajar mientras continuaba formándome de manera autodidacta en desarrollo de videojuegos y, en menor medida, en desarrollo web.
+                    </p>
+                </div>
+                <div id="section2022" class="ItemM ItemMUp" name="2022">
+                    <h3 class="TitelItemM">2022</h3>
+                    <p class="ParrafoIM">
+                        Este año retomé mis estudios, formándome como auxiliar farmacéutico y auxiliar en electricidad, logrando completar y obtener ambos títulos. <br />
+                        Al mismo tiempo, continué trabajando y profundizando de manera autodidacta en el desarrollo de videojuegos y el desarrollo web.
+                    </p>
+                </div>
+                <div id="section2023" class="ItemM ItemMUp" name="2023">
+                    <h3 class="TitelItemM">2023</h3>
+                    <p class="ParrafoIM">
+                        Tras finalizar mis estudios anteriores y durante las vacaciones, conocí iniciativas como Silicon Misiones y el Polo TIC, y decidí inscribirme. <br />
+                        Aunque no encontré una formación específica en desarrollo de videojuegos, realicé diversos cursos en ambas instituciones. <br />
+                        En Silicon Misiones cursé desarrollo web, trabajando con Node.js, Postman y MySQL Workbench en la creación de aplicaciones tipo CRUD.
+                        Además, realicé cursos de inglés y chino. <br />
+                        Por otro lado, en el Polo TIC completé una formación en bases de datos, enfocada principalmente en bases de datos relacionales, con una breve introducción a las no relacionales. También participé en una competencia de desarrollo de videojuegos, donde junto a un grupo tuvimos tres días y una temática específica para crear un juego. <br />
+                        Logré aprobar todos los cursos, mientras continuaba trabajando y formándome de manera autodidacta en mi principal interés: el desarrollo de videojuegos.
+                    </p>
+                </div>
+                <div id="section2024" class="ItemM ItemMUp" name="2024">
+                    <h3 class="TitelItemM">2024</h3>
+                    <p class="ParrafoIM">
+                        Tras aprobar todas las formaciones anteriores, este año me inscribí en diversos cursos. Entre ellos, realicé un curso básico de japonés, donde aprendí fundamentos del idioma y aspectos de la cultura japonesa. <br />
+                        Además, me formé en la Fundación Alfa en dos áreas: reparación e instalación de aires acondicionados, y instalación y mantenimiento de cámaras de seguridad. <br />
+                        Logré completar y aprobar ambas capacitaciones, aunque no llegué a ejercer en estas áreas.
+                    </p>
+                </div>
+                <div id="section2025" class="ItemM ItemMUp" name="2025">
+                    <h3 class="TitelItemM">2025</h3>
+                    <p class="ParrafoIM">
+                        Este año fue uno de los más difíciles de mi vida debido a diversos cambios personales. Durante este proceso, me alejé temporalmente de la programación y de otras áreas que me interesaban. <br />
+                        También inicié un emprendimiento propio, abriendo una librería en conjunto con el negocio familiar.<br />
+                        Hacia finales de ese año, tras atravesar distintas situaciones personales, comencé a replantearme mi camino y a buscar cómo retomar la programación, así como aprender sobre el diseño gráfico aplicado a videojuegos.<br />
+                        En ese contexto, asistí a un evento de facultades donde descubrí la carrera de diseño gráfico digital. Motivado por esa oportunidad y por la intención de retomar mis estudios, decidí inscribirme nuevamente en una carreradentro de la misma institución.
+                    </p>
+                </div>
+                <div id="section2026" class="ItemM ItemMUp" name="2026">
+                    <h3 class="TitelItemM">2026</h3>
+                    <p class="ParrafoIM">
+                        Tras todo el recorrido anterior, este año me encuentro cursando la carrera de Diseño Gráfico Digital en el ITEC N° 3, con un gran entusiasmo por seguir aprendiendo y creciendo. <br />
+                        Mi objetivo es poder crear mundos completos, donde cada uno transmita un mensaje propio a quienes los experimenten. Considero que los videojuegos no solo entretienen, sino que también son una de las formas más valiosas de enseñar y comunicar ideas, muchas veces de manera sutil. <br />
+                        Para mí, cada diseño, dibujo, animación o elemento dentro de un videojuego cuenta una historia y busca dejar una enseñanza, y es en ese equilibrio entre diversión y significado donde encuentro mi mayor motivación.
+                    </p>
+                </div>
+            </div>
+            <button onclick="mover(1)" class="ButtonM"> > </button>
+        </div>
+    </main>
+
+    <footer>
+        <a class="LinkF" href="https://kevinrodigowawryniuk.github.io/Enlazador/">Enlazador</a>
+    </footer>
+
+    <div class="Surf">
+
+    </div>
+    <script src="Control.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿.Surf {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: linear-gradient(270deg, #3E353A, #33232B, #69525D);
+    background-size: 600% 600%;
+    animation: gradientMove 10s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
